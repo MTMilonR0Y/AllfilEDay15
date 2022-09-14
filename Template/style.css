@@ -1,0 +1,249 @@
+/* Defult Css */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.fix-width{
+    width: 1080px;
+    margin: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align-last: left;
+}
+.text-right{
+    text-align: right;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+/* Header Section start */
+.mainHeader{
+    background-color: #22c3a3;
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left a{
+    color: #fff;
+    font-size: 35px;
+    text-decoration: none;
+    line-height: 70px;
+}
+
+.header-right{
+    float: right;
+    width: 70%;
+}
+
+/* Header menu */
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    padding: 0 10px;
+    margin-left: -5px;
+}
+.header-right li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 0;
+    line-height: 50px;
+    transition: 1s;
+}
+.header-right li a:hover{
+    color: #000;
+}
+/* Header Section end */
+
+/* Beneer Section */
+
+.maniBenner{
+background: url("https://i.ibb.co/f8cR8Q7/header-bg01.jpg") no-repeat center;
+background-size: cover;
+padding: 150px;
+}
+.maniBenner h1 {
+	color: #fff;
+	margin: 22px 0;
+	font-size: 45px;
+
+}
+.maniBenner h3 {
+	color: #fff;
+	margin-top: 25px;
+	margin-bottom: 62px;
+	font-size: 15px;
+}
+
+.maniBenner a {
+	text-decoration: navajowhite;
+	color: #ffff;
+	border: 1px solid;
+	padding: 15px 35px;
+	border-radius: 5px;
+    transition: 1s;
+}
+.maniBenner a:hover{
+    background-color: #000;
+    border-color: #000;
+}
+/* Bennder section End */
+
+
+/* Service section  Start */
+.ous{
+    margin: 70px 0;
+}
+.ous h2 {
+	font-size: 40px;
+	padding: 15px 0;
+}
+.ous p{
+    color: rgb(82, 79, 79);
+}
+ /* Service section end */
+
+ /* Expriance Start */
+ .service{
+    border-bottom: 3px solid #0dbf9b;
+    height: 400px;
+
+ }
+ .service .service-item {
+	float: left;
+	width: 23%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+ .service .service-item span{
+    color: #0dbf9b;
+    font-size: 35px;
+ }
+ .service .service-item h3 {
+    margin: 20px 0;
+    font-size: 25px;
+
+}
+ .service .service-item p{
+    color: #000;
+    text-align: center;
+ }
+ /* Expriance End */
+
+
+ /* About Section Start */
+ .aboutseCtion{
+    padding: 45px 0;
+ }
+ .aboutseCtion h2 {
+	font-size: 35px;
+	padding: 15px;
+}
+ 
+ /* About Section End */
+
+
+ /* Contener left Section start */
+
+ .contenr-left{
+    float: left;
+    width: 35%;
+ }
+ .contenr-right{
+    float: right;
+    width: 60%;
+ }
+
+ .contenner img {
+	height: 300px;
+	width: auto;
+	margin-top: 31px;
+}
+
+
+ /* Contener left Section End */
+
+
+ /* Contener right Section Start */
+ .contenr-right .bg-item h3 {
+	padding: 15px 0;
+}
+ /* Contener right Section End */
+
+ /* Contact Us Start */
+ .contactUS {
+	background-color: #ddd;
+	text-align: center;
+	padding: 55px 0;
+	margin-top: 50px;
+}
+ .contactUS h1 {
+	padding: 20px 0;
+	font-size: 40px;
+}
+.cont{
+    float: left;
+    width: 33%;
+}
+.contatt{
+	padding: 80px 0;
+}
+.contatt span {
+	color: #0dbf9b;
+	padding: 10px 0;
+	display: inline-block;
+}
+.contatt h4{
+    padding: 3px 0;
+}
+ /* Contact Us End */
+
+ /* Footer Section Start */
+ .socialmenu {
+	text-align: center;
+	background: #0dbf9b;
+}
+.socialmenu li{
+    display: inline-block;
+    margin-left: -5px;
+}
+.socialmenu li a {
+	color: #fff;
+	display: inline-block;
+	padding: 16px 10px;
+    font-size: 20px;
+}
+
+.copyright {
+	text-align: center;
+	background: #222222;
+}
+.copyright span {
+	display: inline-block;
+	padding: 15px 0;
+	color: #867d7d;
+}
+ 
+ 
+ 
+ 
+ /* Footer Section End */
